@@ -20,4 +20,5 @@ my_mergedtablesedited selects only the columns needed, by removing column 67
 ```
 my_groups  regroups the data by subject_id_number and activity
 ```
-my_final is an clumsy approach to summarizing the data by each subject and activity and the mean of each other variable.
+my_final is an clumsy approach to summarizing the data by each subject and activity 
+and the mean of each other variable.
