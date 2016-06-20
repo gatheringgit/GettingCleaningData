@@ -10,9 +10,9 @@ In the script run_analysis.R, these steps,
 "my_mergedtables" merges the 2 different data sets.
 ```
 my_mergedtablesedit is a pipeline which:
-*-selects only the columns that represent the mean and standard deviation for each measurement
-*-adds a column which has the descriptive term for each activity
-*-renames the variable V1.1 to "subject_id_number"
+* selects only the columns that represent the mean and standard deviation for each measurement
+* adds a column which has the descriptive term for each activity
+* renames the variable V1.1 to "subject_id_number"
 ```
 gsub("x.", "", names(my_mergedtablesedit) removes the "x." text from the colnames where it appears
 ```
